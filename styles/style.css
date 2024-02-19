@@ -1,4 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #E2CE1A;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.apresentacao {
+    display: flex;
+    justify-content: center;
+    padding: 15%;
+}
+
+.cliente_apresentacao {
+    width: 304px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px 0px 0px 20px;
+    background-color: #36320A;
+    padding: 4%;
+}
+
+.subtitulo_cliente {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.paragrafo_cliente {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.btn_entrar {
+    border-radius: 30px;
+    border: solid #FFFFFF;
+    background: none;
+    color: #FFFFFF;
+    font-family: 'Poppins' sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    padding: 17px;
+    width: 232px;
+}
+
+.paragrafo_cliente_esqueci_senha {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.cadastrar_apresentacao {
+    width: 944px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #FEFAA1;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    padding: 6%;
+}
+
+.conteudo_cadastrar_apresentacao {
+    height: 100%;
+}
+
+.titulo_cadastrar {
+    font-size: 32px;
+    font-weight: 800;
+    color: #000000;
+}
+
+.paragrafo_cadastrar {
+    font-size: 19px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.inserir_dados_cadastro_apresentacao_name {
+    width: 480px;
+    background-color: #E2CE1A;
+    background-image: url();
+    border-radius: 16px;
+    border: none;
+    padding: 7px;
+    font-size: 23px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.inserir_dados_cadastro_apresentacao_email {
+    width: 480px;
+    background-color: #E2CE1A;
+    border-radius: 16px;
+    border: none;
+    padding: 7px;
+    font-size: 23px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.inserir_dados_cadastro_apresentacao_password {
+    width: 480px;
+    background-color: #E2CE1A;
+    border-radius: 16px;
+    border: none;
+    padding: 7px;
+    font-size: 23px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.btn_cadastrar {
+    border-radius: 30px;
+    border: none;
+    background: #36320A;
+    color: #FFFFFF;
+    font-family: 'Poppins' sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    padding: 17px;
+    width: 232px;
 }
